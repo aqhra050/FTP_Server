@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/altalib/CourseWork/Networks/Projects/Project_2'
+cc    -c -o common.o common.c
+gcc  -Wall client.c common.o -o client -pthread
+gcc -Wall server.c common.o -o server -pthread
+make: Leaving directory '/home/altalib/CourseWork/Networks/Projects/Project_2'
+ 
