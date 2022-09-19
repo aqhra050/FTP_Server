@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 13 19:05:38 2022
+# Make data base, printed on Mon Sep 19 22:11:34 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ VSCODE_CWD = /mnt/c/Users/Abdullah/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/altalib/.vscode-server/bin/57fd6d0195bb9b9d1b49f6da5db789060795de47/bin/remote-cli:/home/altalib/.local/bin:/home/altalib/.nvm/versions/node/v16.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/PharosSystems/Core:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Calibre2/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Abdullah/AppData/Local/Programs/Python/Python38-32/Scripts/:/mnt/c/Users/Abdullah/AppData/Local/Programs/Python/Python38-32/:/mnt/c/Users/Abdullah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Abdullah/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Abdullah/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin
+PATH = /home/altalib/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/altalib/.local/bin:/home/altalib/.nvm/versions/node/v16.12.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/PharosSystems/Core:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Calibre2/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/Abdullah/AppData/Local/Programs/Python/Python38-32/Scripts/:/mnt/c/Users/Abdullah/AppData/Local/Programs/Python/Python38-32/:/mnt/c/Users/Abdullah/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Abdullah/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Abdullah/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin
 # environment
 XDG_RUNTIME_DIR = /mnt/wslg/runtime-dir
 # environment
@@ -59,7 +59,7 @@ NVM_BIN = /home/altalib/.nvm/versions/node/v16.12.0/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-0a25fb73-eec7-44da-ba52-ed330ccc21a1.sock
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-2c6f07f6-f291-4c1f-bb8f-7a82ba71f611.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -89,6 +89,7 @@ LOGNAME = altalib
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
+ 
 NVM_CD_FLAGS = 
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
@@ -113,7 +114,7 @@ NAME = Code
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Abdullah/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.2
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Abdullah/.vscode/extensions/ms-vscode-remote.remote-wsl-0.66.3
 # default
 MAKE_COMMAND := make
 # default
@@ -171,9 +172,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 2080, inode 125910): 23 files, no impossibilities.
+# . (device 2080, inode 125910): 21 files, no impossibilities.
 
-# 23 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -221,6 +222,7 @@ server: server.c common.o
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-05-08 22:52:02.1482958
 #  File has been updated.
 #  Successfully updated.
@@ -266,12 +268,12 @@ clean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 297 B / avg = 9 B
-# current buf: size = 8162 B / used = 297 B / count = 30 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 246 B / avg = 8 B
+# current buf: size = 8162 B / used = 246 B / count = 28 / avg = 8 B
 
-# strcache performance: lookups = 49 / hit rate = 38%
+# strcache performance: lookups = 47 / hit rate = 40%
 # hash-table stats:
-# Load=30/8192=0%, Rehash=0, Collisions=1/49=2%
-# Finished Make data base on Fri May 13 19:05:38 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/47=2%
+# Finished Make data base on Mon Sep 19 22:11:34 2022
 
  
